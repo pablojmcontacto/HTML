@@ -1,0 +1,36 @@
+<html>
+<head><META CHARSET="UTF-8"><title>Bucles-Ej4</title>
+</head>
+<body>
+<h1 align="center"><font face="arial black">Bucles-Ejercicio.4</font></h1>
+<script>
+var i;
+var x=0;
+var n1 = prompt("Dime un número");
+var n2 = prompt ("Dime otro número");
+
+if (n1>n2)
+	{
+		mayor=n1;
+		menor=n2;
+	}
+else
+	{
+		mayor=n2;
+		menor=n1;
+	}
+		
+for (i=menor;i<=mayor;i++)
+	
+{
+	document.write("&nbsp;"+i+"&nbsp;");
+	x=parseInt(x)+parseInt(i);
+ }
+ document.write("<br><br>");
+ document.write("<font color=red>Suma números :</font>" +x);
+
+
+</script>
+</body>
+
+</html>
