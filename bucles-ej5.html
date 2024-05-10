@@ -1,24 +1,23 @@
 <html>
-<head><META CHARSET="UTF-8"><title>Bucles-Ej5</title>
+<head>
+    <meta charset="UTF-8"> <!-- Define el juego de caracteres como UTF-8 -->
+    <title>Bucles-Ej5</title>
 </head>
 <body>
-<h1 align="center"><font face="arial black">Bucles-Ejercicio.5</font></h1>
-<script>
-var i;
-var x=1;
-var n1 = prompt("Dime la Base");
-var n2 = prompt("Dime el exponente");
-
-for (i=0;i<n2;i++)
-
-	{
-	x=parseInt(x)*parseInt(n1);
-	;
-	
-	}
-	
-document.write("<br>"+n1+" <font color=red>Elevado a</font> "+n2+" es "+x);
-</script>
+    <h1 align="center"><font face="arial black">Bucles-Ejercicio.5</font></h1> <!-- Título principal -->
+    <script>
+        var i; // Declara una variable 'i' para usarla como contador en el bucle
+        var x = 1; // Inicializa una variable 'x' con el valor 1 para almacenar el resultado de la potencia
+        var n1 = prompt("Dime la Base"); // Solicita al usuario que ingrese la base
+        var n2 = prompt("Dime el exponente"); // Solicita al usuario que ingrese el exponente
+        
+        // Bucle que se ejecuta 'n2' veces para calcular la potencia de 'n1' elevado a 'n2'
+        for (i = 0; i < n2; i++) {
+            x = parseInt(x) * parseInt(n1); // Calcula la potencia multiplicando 'x' por 'n1'
+        }
+        
+        // Muestra el resultado de la potencia en la página
+        document.write("<br>" + n1 + " <font color=red>Elevado a</font> " + n2 + " es " + x);
+    </script>
 </body>
-
 </html>
