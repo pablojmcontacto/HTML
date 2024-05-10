@@ -1,6 +1,6 @@
 <h1 align="center">HTML</h1>
 
-<p align="center">En esta sección encontraremos prácticas comentadas donde se trabajará con el Lenguaje de Marcado HTML junto a CSS a JavaScript </p>
+<p align="center">En esta sección encontraremos prácticas comentadas donde se trabajará con el Lenguaje de Marcado HTML junto a CSS y JavaScript </p>
 
 <hr>
 
