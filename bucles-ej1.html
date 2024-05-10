@@ -1,28 +1,28 @@
-//Ejercicio de HTML y JavaScript que consiste en contar la cantidad de pares que hay entre el 1 y el 100 y la suma de todos ellos.
-
 <html>
-<head><META CHARSET="UTF-8"><title>Bucles-Ej1</title>
+<head>
+    <meta charset="UTF-8"> <!-- Define el juego de caracteres como UTF-8 -->
+    <title>Bucles-Ej1</title>
 </head>
 <body>
-<h1 align="center"><font face="arial black">Bucles-Ejercicio.1</font></h1>
-<script>
-var i;
-var x=0;
-var y=0;
-for (i=1;i<=100;i++)
-{
-	if(i%2==0)
-	{
-	document.write("&nbsp;"+i+"&nbsp;");
-	x=x+1;
-	y=y+i;
-	}
-	}
-document.write(" <br><br><font color=blue>Total Pares :</font> "+x);
-document.write(" <br><font color=blue>Suma Pares : </font>"+y);
- 
-	
-</script>
+    <h1 align="center"><font face="arial black">Bucles-Ejercicio.1</font></h1> <!-- Título principal -->
+    <script>
+        var i; // Declara una variable 'i' para usarla como contador en el bucle
+        var x = 0; // Inicializa una variable 'x' para contar el total de números pares
+        var y = 0; // Inicializa una variable 'y' para almacenar la suma de los números pares
+        
+        // Bucle for que recorre los números del 1 al 100
+        for (i = 1; i <= 100; i++) {
+            if (i % 2 == 0) { // Verifica si el número es par
+                // Muestra el número par en la página y realiza los cálculos
+                document.write("&nbsp;" + i + "&nbsp;"); // Muestra el número par
+                x = x + 1; // Incrementa el contador de números pares
+                y = y + i; // Suma el número par a 'y'
+            }
+        }
+        
+        // Muestra el total de números pares y la suma en la página
+        document.write(" <br><br><font color=blue>Total Pares :</font> " + x); // Muestra el total de números pares
+        document.write(" <br><font color=blue>Suma Pares : </font>" + y); // Muestra la suma de los números pares
+    </script>
 </body>
-
 </html>
